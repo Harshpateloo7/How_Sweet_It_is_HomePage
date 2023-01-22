@@ -1,0 +1,122 @@
+/*Import font from google font family*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*****************************************************************
+* Table of Contents
+* ==================
+* 1. Defult style
+* 2. Header style
+* 3. Background image style
+* 4. Button style
+* 5. Footer Menu style
+*/
+
+/* 1. Defualt styles */
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 2. Header style*/
+#header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+#header a{
+    text-decoration: none;
+}
+.main-navigation{
+    flex:9 0 0;
+    font-size: 1.5em;   
+}
+.header-menu{
+    padding: 0;  
+}
+.header-menu li{
+    display: inline-block;
+    margin-right: 2.5em;
+}
+h2{
+    text-shadow: 1px 1px #2B0404;
+    margin-left: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;  
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;  
+}
+/*Hover style for menu and site name*/
+a{
+    color: #2B0404;
+    text-decoration: none;
+}
+a:hover{
+    color: #E0376A;
+}
+#site-name, .main-navigation {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800; 
+     
+}
+#site-name{
+    font-size: 2em;
+    flex: 3 0 0;
+}
+
+/* 3. Background image style*/
+.text{
+    background: url("../images/macarons.jpg") center center no-repeat; 
+    margin: 1em;
+    height:638px;;
+}
+.text h1{
+    color:#FFFFFF;
+    font-size: 4.5em;
+    padding: 2.3em;
+    padding-bottom: 0;
+    margin:0;
+    text-align: center;
+}
+/* 4. Button style*/
+a.btn,.btn{
+    color: #AD00FF;
+    background-color: #FFFFFF;
+    font-family:'Poppins', sans-serif ;
+    padding: 1em;
+    font-weight: lighter;
+    border-radius: 75px;
+}
+.btn{
+    border: 3px solid #AD00FF;
+    text-align: center;
+}
+.main-wrapper{
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+/* 5. Footer menu style*/
+.footer-menu{
+    padding: 0;
+}
+.footer-menu li{
+    display: inline-block;
+    margin-left: 1.5em;
+}
+p{
+    font-family:'Poppins', sans-serif;
+    margin-left:2.5em;
+    font-size: small;
+    color: #000000;
+    font-weight: lighter;
+}
+
+
